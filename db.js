@@ -9,8 +9,8 @@ const mongoURL = process.env.MONGODB_URL; //hotels is the name of the database
 
 //setup mongoDB connection
 mongoose.connect(mongoURL, {
-  // useNewUrlParser: true,
-  // useUnifiedTopology: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
   tlsInsecure: true,
 });
 
