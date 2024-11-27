@@ -2,7 +2,6 @@
   "name": "hotel",
   "version": "1.0.0",
   "main": "db.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,6 +15,8 @@
     "express": "^4.21.1",
     "mongodb": "^6.11.0",
     "mongoose": "^8.8.2",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
   }
 }
