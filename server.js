@@ -31,8 +31,8 @@ app.get("/", localauthMiddleware, function (req, res) {
 });
 
 //Use the router files
-app.use("/person", localauthMiddleware, personRoutes);
-app.use("/menuitem", localauthMiddleware, menuItemRoutes);
+app.use("/person", personRoutes);
+app.use("/menuitem", menuItemRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
